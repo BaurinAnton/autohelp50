@@ -1,0 +1,1 @@
+export { TableOneDesktop } from './layout'

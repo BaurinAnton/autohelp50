@@ -1,0 +1,46 @@
+export const TABLE_THREE = {
+    TITLE: [
+        { TITLE: 'Грузовой шиномонтаж' },
+    ],
+    COLUMN_ONE: [
+        { TITLE: 'Услуга' },
+        { CONTENT: 'Снятие/установка одного колеса', id: 1 },
+        { CONTENT: 'Снятие/установка одного внетреннего колеса (без футурок)', id: 2 },
+        { CONTENT: 'Демонтаж', id: 3 },
+        { CONTENT: 'Монтаж', id: 4 },
+        { CONTENT: 'Монтаж одного колеса с кольцом', id: 5 },
+        { CONTENT: 'Демонтаж одного колеса с кольцом', id: 6 },
+        { CONTENT: 'Балансировка одного колеса без учета грузов', id: 7 },
+    ],
+    COLUMN_TO: [
+        { TITLE: '17.5' },
+        { CONTENT: '150', id: 1 },
+        { CONTENT: '200', id: 2 },
+        { CONTENT: '200', id: 3 },
+        { CONTENT: '200', id: 4 },
+        { CONTENT: '300', id: 5 },
+        { CONTENT: '300', id: 6 },
+        { CONTENT: '300', id: 7 },
+    ],
+    COLUMN_THREE: [
+        { TITLE: '19.5-22.5' },
+        { CONTENT: '300', id: 1 },
+        { CONTENT: '350', id: 2 },
+        { CONTENT: '300', id: 3 },
+        { CONTENT: '300', id: 4 },
+        { CONTENT: '400', id: 5 },
+        { CONTENT: '400', id: 6 },
+        { CONTENT: '300', id: 7 },
+    ],
+    COLUMN_FOUR: [
+        { TITLE: '24 и выше' },
+        { CONTENT: '350', id: 1 },
+        { CONTENT: '400', id: 2 },
+        { CONTENT: '300', id: 3 },
+        { CONTENT: '300', id: 4 },
+        { CONTENT: '400', id: 5 },
+        { CONTENT: '400', id: 6 },
+        { CONTENT: '-', id: 7 },
+    ],
+}
+

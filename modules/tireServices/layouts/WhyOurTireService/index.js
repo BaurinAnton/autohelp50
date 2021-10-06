@@ -1,0 +1,1 @@
+export { WhyOurTireService } from './layout'

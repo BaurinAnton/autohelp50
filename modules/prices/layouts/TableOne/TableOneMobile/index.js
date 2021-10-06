@@ -1,0 +1,1 @@
+export { TableOneMobile } from './layout'

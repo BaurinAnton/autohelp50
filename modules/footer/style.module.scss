@@ -1,0 +1,136 @@
+.footer {
+    background-color: #c8c8c8;
+    .container {
+        @media (min-width: 1281px) {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 1280px) {
+            max-width: 95%;
+            margin: 0 auto;
+        }
+        @media (max-width: 1140px) {
+            font-size: 14px;
+        }
+        @media (max-width: 992px) {
+            font-size: 12px;
+        }
+        @media (max-width: 767px) {
+            font-size: 10px;
+        }
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 5.9375em;
+        }
+        @media (max-width: 577px) {
+            grid-template-columns: 1fr;
+            grid-row-gap: 5.9375em;
+            font-size: 0.7em;
+        }
+        padding: 8.125em 0;
+        align-items: self-start;
+        .column:nth-of-type(1) {
+            justify-self: flex-start;
+            @media (min-width: 577px) {
+                margin-top: -0.4em;
+            }
+            img {
+                width: 17.3125em;
+                height: 3.0625em;
+                margin-bottom: 1.5em;
+            }
+            .items {
+                font-size: 1.25em;
+                font-weight: 600;
+                display: flex;
+                flex-direction: column;
+                a {
+                    text-decoration: none;
+                    color: #2c2c2c;
+                    &:hover {
+                        transform: scale(1.05);
+                        transition-duration: 100ms;
+                    }
+                }
+                a:nth-of-type(1) {
+                    margin-bottom: 0.8125em;
+                }
+            }
+            h4 {
+                font-size: 1.25em;
+                margin-top: 1.25em;
+            }
+        }
+        .column:nth-of-type(2) {
+            justify-self: center;
+            @media (max-width: 768px) {
+                justify-self: self-start;
+            }
+            h3 {
+                font-size: 1.875em;
+                font-weight: 600;
+                margin-bottom: 1em;
+                color: #2c2c2c;
+            }
+            ul {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-column-gap: 3.75em;
+                li {
+                    &:nth-of-type(1),
+                    &:nth-of-type(2),
+                    &:nth-of-type(4),
+                    &:nth-of-type(5) {
+                        margin-bottom: 1.5625em;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #2c2c2c;
+                        font-size: 1.25em;
+                    }
+                }
+            }
+        }
+        .column:nth-of-type(3) {
+            justify-self: flex-end;
+            @media (max-width: 768px) {
+                justify-self: self-start;
+            }
+            h3 {
+                font-size: 1.875em;
+                font-weight: 600;
+                margin-bottom: 1em;
+                color: #2c2c2c;
+            }
+            .items {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 1.5625em;
+                p {
+                    font-size: 1.25em;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    color: #2c2c2c;
+                }
+                .box {
+                    margin-left: 1.625em;
+                    display: flex;
+                    img {
+                        width: 1.625em;
+                        height: 1.625em;
+                        &:hover {
+                            transform: scale(1.2);
+                            transition-duration: 100ms;
+                        }
+                        &:nth-of-type(1) {
+                            margin-right: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

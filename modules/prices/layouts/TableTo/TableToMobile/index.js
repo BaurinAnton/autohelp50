@@ -1,0 +1,1 @@
+export { TableToMobile } from './layout'

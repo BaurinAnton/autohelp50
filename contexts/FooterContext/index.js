@@ -1,0 +1,1 @@
+export { FooterContext, FOOTER_CONSTANT } from './context'

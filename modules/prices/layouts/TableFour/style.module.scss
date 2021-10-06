@@ -1,0 +1,87 @@
+.container {
+    @media (min-width: 1281px) {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    @media (max-width: 1280px) {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    @media (max-width: 1140px) {
+        font-size: 14px;
+    }
+    @media (max-width: 992px) {
+        font-size: 12px;
+    }
+    @media (max-width: 767px) {
+        font-size: 10px;
+    }
+    .row:nth-of-type(1) {
+        h3 {
+            font-size: 1.875em;
+            margin: 1.75em 0;
+            font-weight: 600;
+            line-height: 1.4em;
+            color: #2C2C2C;
+        }
+    }
+    .row:nth-of-type(2) {
+        .table {
+            display: grid;
+            grid-template-columns: 5fr 1fr;
+            border: 0.0625em solid #2c2c2c;
+            margin-bottom: 8.125em;
+            .column {
+                padding: 0.8em 1.7em;
+                font-size: 1.5em;
+                line-height: 1.29em;
+                @media (max-width: 577px) {
+                    font-size: 1.7em;
+                }
+                color: #2c2c2c;
+                font-weight: 500;
+                &:nth-of-type(2n) {
+                    justify-self: start;
+                    @media (max-width: 577px) {
+                        justify-self: self-end;
+                        text-align: end;
+                    }
+                    padding-left: 0;
+                }
+                &:nth-of-type(2n-1) {
+                    padding-right: 0;
+                    @media (max-width: 577px) {
+                        width: 6em;
+                    }
+                }
+                &:nth-of-type(1),
+                &:nth-of-type(2) {
+                    background-color: #c8c8c8;
+                    padding: 1.7em 0;
+                    @media (max-width: 577px) {
+                        padding: 1.7em 1.7em;
+                    }
+                    color: #2c2c2c;
+                    font-weight: 600;
+                }
+                &:nth-of-type(3),
+                &:nth-of-type(4) {
+                    margin-top: 1.5em;
+                }
+                &:nth-last-of-type(1),
+                &:nth-last-of-type(2) {
+                    margin-bottom: 1.5em;
+                }
+                &:nth-of-type(2) {
+                    width: 100%;
+                }
+                &:nth-of-type(1) {
+                    padding: 1.7em 1.7em;
+                    @media (max-width: 577px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
