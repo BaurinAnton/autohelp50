@@ -10,8 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ru">
         <Head>
-          <meta charset="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
           <meta name="Author" content="Гуськов Александр" />
           <meta name="Copyright" content="Автопомощь." />
           <meta property="og:locale" content="ru_RU" />
@@ -33,7 +32,7 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#FFA900" />
           <meta name="msapplication-TileImage" content="/public/img/OpenGraph/image.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
         </Head>
         <body>

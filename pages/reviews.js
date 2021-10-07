@@ -14,6 +14,7 @@ const Reviews = () => (
     <>
     <Head>
       <title>Отзывы на эвакуацию и шиномонтаж| Автопомощь</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Отзывы эвакуации, шиномонтажа. Услуги эвакуации и шиномонтажа. Работаем по МО и Тульской области. Оперативная доставка в сервис."/>
       <meta name="keywords" content="эвакуатор отзывы" />
     </Head>
