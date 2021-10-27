@@ -1,0 +1,1 @@
+export { HeaderTablet } from './layout'

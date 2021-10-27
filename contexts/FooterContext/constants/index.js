@@ -1,0 +1,1 @@
+export { FOOTER } from './FOOTER'
