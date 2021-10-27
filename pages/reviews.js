@@ -9,12 +9,8 @@ import {
     FOOTER_CONSTANT,
     FooterContext,
 } from '/contexts'
-import { yandexMetrica } from '/api/yandexMetrica'
-import { googleAnalytics } from '/api/googleAnalytics'
 
 const Reviews = () => {
-    yandexMetrica()
-    googleAnalytics()
     return (
         <>
             <Head>

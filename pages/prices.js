@@ -17,12 +17,8 @@ import {
     PriceContext,
     PRICE_CONSTANT
 } from '/contexts'
-import { yandexMetrica } from '/api/yandexMetrica'
-import { googleAnalytics } from '/api/googleAnalytics'
 
 const Prices = () => {
-    yandexMetrica()
-    googleAnalytics()
     return (
         <>
             <Head>

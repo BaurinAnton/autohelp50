@@ -10,14 +10,10 @@ import {
   OurWork,
   Contacts,
 } from '/modules/home'
-import { yandexMetrica } from '/api/yandexMetrica'
-import { googleAnalytics } from '/api/googleAnalytics'
 import { Footer } from '/modules/footer'
 import { HOME_CONSTANT, HomeContext, FOOTER_CONSTANT, FooterContext } from '/contexts'
 
 const RootPage = () => {
-  yandexMetrica()
-  googleAnalytics()
   return (
     <>
       <Head>
