@@ -1,1 +1,0 @@
-export { TableToDesktop } from './layout'

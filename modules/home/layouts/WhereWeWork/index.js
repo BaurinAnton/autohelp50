@@ -1,1 +1,0 @@
-export { WhereWeWork } from './layout'

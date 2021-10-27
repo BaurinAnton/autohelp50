@@ -1,1 +1,0 @@
-export { HeaderFixed } from './layout'

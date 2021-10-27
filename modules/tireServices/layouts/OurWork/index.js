@@ -1,1 +1,0 @@
-export { OurWork } from './layout'
