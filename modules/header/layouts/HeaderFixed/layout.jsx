@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
 import { HomeContext } from '/contexts'
 import style from './style.module.scss'
-
 export const HeaderFixed = () => {
     const { HEADER: { NAV_LINKS } } = useContext(HomeContext)
     const navText = NAV_LINKS.map((nav) => (

@@ -12,9 +12,12 @@ import {
     WhyOurTireServiceContext
 } from '/contexts'
 import { Footer } from '/modules/footer'
+import { yandexMetrica } from '/api/yandexMetrica'
+import { googleAnalytics } from '/api/googleAnalytics'
 
 const TireServices = () => {
-
+    yandexMetrica()
+    googleAnalytics()
     return (
         <>
             <Head>
