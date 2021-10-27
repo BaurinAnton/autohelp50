@@ -10,8 +10,14 @@ class MyDocument extends Document {
     return (
       <Html lang="ru">
         <Head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-VHRW3PBBSX"></script>
           <script dangerouslySetInnerHTML={{
             __html: `
+            window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VHRW3PBBSX');
             (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
             (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -22,9 +28,10 @@ class MyDocument extends Document {
                  accurateTrackBounce:true,
                  webvisor:true
             });`}}></script>
-            <noscript dangerouslySetInnerHTML={{
-            __html: `<div><img src="https://mc.yandex.ru/watch/86131485" style="position:absolute; left:-9999px;" alt="" /></div>`}}>
-            </noscript>
+          <noscript dangerouslySetInnerHTML={{
+            __html: `<div><img src="https://mc.yandex.ru/watch/86131485" style="position:absolute; left:-9999px;" alt="" /></div>`
+          }}>
+          </noscript>
           <meta charset="utf-8" />
           <meta name="Author" content="Гуськов Александр" />
           <meta name="Copyright" content="Автопомощь." />
