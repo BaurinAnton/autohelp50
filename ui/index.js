@@ -1,1 +1,0 @@
-export { SwiperUI } from './SwiperUI'

@@ -1,1 +1,0 @@
-export { SwiperMobile } from './layout'

@@ -1,1 +1,0 @@
-export { SwiperDesktop } from './component'
