@@ -1,0 +1,1 @@
+export { SwiperTablet } from './layout'

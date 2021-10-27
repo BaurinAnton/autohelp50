@@ -1,0 +1,21 @@
+.Swiper {
+    height: 26em;
+    // @media (max-width: 1280px) {
+    //     height: 130% !important;
+    // }
+    .swiperSlide {
+        height: 100% !important;
+        img {
+            width: 100% !important;
+            height: 90% !important;
+        }
+    }
+    div:nth-of-type(1) {
+        height: 0.625em;
+        border-radius: 0;
+        div:nth-child(1) {
+            background-color: #f97931;
+            border-radius: 0;
+        }
+    }
+}

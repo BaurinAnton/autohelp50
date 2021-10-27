@@ -1,0 +1,145 @@
+.section {
+    background-image: url(/img/MainPage/mainSection/background.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    .container {
+        @media (min-width: 1281px) {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 1280px) {
+            max-width: 95%;
+            margin: 0 auto;
+        }
+        @media (max-width: 1140px) {
+            font-size: 14px;
+        }
+        @media (max-width: 992px) {
+            font-size: 12px;
+        }
+        @media (max-width: 767px) {
+            font-size: 10px;
+        }
+        @media (max-width: 400px) {
+            font-size: 8px;
+        }
+        .row:nth-of-type(1) {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8.125em;
+            @media (max-width: 992px) {
+                margin-top: 3.3125em;
+            }
+            @media (max-width: 577px) {
+                margin-top: 5.75em;
+            }
+            .column:nth-of-type(1) {
+                h1 {
+                    color: #fff;
+                    font-size: 4.1em;
+                    width: 10em;
+                    font-weight: 700;
+                    margin-bottom: 0.46em;
+                    line-height: 1.077em;
+                    @media (max-width: 992px) {
+                        font-size: 3.5em;
+                    }
+                    @media (max-width: 577px) {
+                        width: 8em;
+                        font-size: 3.5em;
+                        margin-bottom: 1.5em;
+                    }
+                }
+                h2 {
+                    font-weight: 600;
+                    font-size: 1.875em;
+                    width: 14em;
+                    line-height: 1.2em;
+                    color: #fff;
+                    margin-bottom: 1.667em;
+                    @media (max-width: 577px) {
+                        width: 11em;
+                        font-size: 2.5em;
+                        margin-bottom: 2em;
+                    }
+                }
+                .button {
+                    background-image: url(/img/MainPage/mainSection/buttonBackground.svg);
+                    background-size: contain;
+                    width: 8.33em;
+                    height: 2.7em;
+                    background-repeat: no-repeat;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 2em;
+                    color: #fff;
+                    font-size: 1.5em;
+                    font-weight: 600;
+                    text-decoration: none;
+                    &:hover {
+                        transform: scale(1.06);
+                        margin-left: 0.24em;
+                        transition-duration: 100ms;
+                    }
+                    @media (max-width: 577px) {
+                        background-image: url(/img/MainPage/mainSection/buttonBackgroundMobile.svg);
+                        margin-bottom: 2.7em;
+                        font-size: 2.2em;
+                        width: 7.2em;
+                        height: 2.3em;
+                        padding-left: 0.5em;
+                    }
+                    @media (max-width: 380px) {
+                        background-image: url(/img/MainPage/mainSection/buttonBackgroundMobile.svg);
+                        margin-bottom: 2.7em;
+                        font-size: 2.3em;
+                        width: 8em;
+                        height: 2.3em;
+                        padding-left: 0.5em;
+                    }
+                }
+            }
+            .column:nth-of-type(2) {
+                img {
+                    width: 7.125em;
+                    height: 4.375em;
+                    @media (max-width: 400px) {
+                        font-size: 1.25em;
+                    }
+                }
+            }
+        }
+        .row:nth-of-type(2) {
+            display: flex;
+            color: #fff;
+            margin-top: 8.9375em;
+            padding-bottom: 8.125em;
+            @media (max-width: 577px) {
+                display: none;
+            }
+            .column {
+                p:nth-of-type(1) {
+                    font-size: 1.875em;
+                    border-bottom: 0.07em solid #fff;
+                    display: inline-block;
+                    line-height: 0.9em;
+                    font-weight: 600;
+                }
+                p:nth-of-type(2) {
+                    font-size: 1.25em;
+                    font-weight: 500;
+                    @media (min-width: 993px) {
+                        width: 15em;
+                    }
+                    margin-top: 1em;
+                    margin-right: 1.5em;
+                    line-height: 1.2em;
+                }
+                .border {
+                    border-right: 0.125em solid #fff;
+                }
+            }
+        }
+    }
+}

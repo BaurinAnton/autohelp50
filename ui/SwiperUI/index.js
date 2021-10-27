@@ -1,0 +1,1 @@
+export { SwiperUI } from './component'
