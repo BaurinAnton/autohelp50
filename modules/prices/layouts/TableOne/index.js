@@ -1,1 +1,0 @@
-export { TableOne } from './layout'

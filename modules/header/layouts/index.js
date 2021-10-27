@@ -1,5 +1,0 @@
-export { HeaderFixed } from './HeaderFixed'
-export { HeaderMain } from './HeaderMain'
-export { HeaderTablet } from './HeaderTablet'
-export { HeaderMobile } from './HeaderMobile'
-export { HeaderPages } from './HeaderPages'

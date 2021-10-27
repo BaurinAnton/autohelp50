@@ -1,1 +1,0 @@
-export { TableColumn } from './layout'

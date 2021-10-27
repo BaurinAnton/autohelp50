@@ -1,1 +1,0 @@
-export { HeaderMain } from './layout'

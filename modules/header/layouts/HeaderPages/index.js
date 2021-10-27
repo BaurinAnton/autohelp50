@@ -1,1 +1,0 @@
-export { HeaderPages } from './layout'

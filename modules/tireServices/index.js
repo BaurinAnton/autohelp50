@@ -1,1 +1,0 @@
-export { WhyOurTireService, OurWork } from './layouts'
